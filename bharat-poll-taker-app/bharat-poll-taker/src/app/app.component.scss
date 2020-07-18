@@ -1,0 +1,47 @@
+
+.poll-main-conatiner{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    left: 0px;
+    top: 0px;
+}
+
+.poll-items{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+    height: 100%;
+
+
+     h1{
+         font-size: 44px;
+         color: dimgray;
+     }
+     p{
+        font-size: 22px;
+        color: deeppink;
+     }
+     .poll-gif{
+         position: relative;
+         height: 78%;
+         img{
+            display: inline-block;
+            position: relative;
+            height: inherit;
+            width: 350px;
+
+         }
+     }
+     p~p{
+        font-size: 16px;
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        background-color: darkgray;
+        color: whitesmoke;
+     }
+
+}
