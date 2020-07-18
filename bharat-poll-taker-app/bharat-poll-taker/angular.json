@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bharat-poll-taker"
+    }
+  },
+  "defaultProject": "bharat-poll-taker",
+  "cli": {
+    "analytics": "f0b2f7c8-526c-46dd-9ee3-be12f1c42847"
+  }
 }
