@@ -61,7 +61,9 @@
   transform: scale3d(0.95, 0.95, 1.01);
   color: hsla(240, 0%, 100%, 1);
 }
-
+.image-wrapper:hover .img-popover-label{
+  background-color: hsla(0, 92%, 65.69%, 1);;
+}
 .img-popover-label {
   position: absolute;
   display: flex;
